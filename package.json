@@ -1,3 +1,10 @@
+"scripts": {
+  "start": "expo start --web",
+  "dev": "EXPO_NO_TELEMETRY=1 expo start",
+  "build:web": "expo export --platform web",
+  "lint": "expo lint"
+}
+
 {
   "name": "weekly-match-app",
   "version": "1.0.0",
